@@ -42,7 +42,26 @@ namespace BooksApi.Controllers
         [HttpPut("{id:length(24)}")]
         public IActionResult Update(string id, Book bookIn)
         {
+            var book = _bookService.Get(id);
+            if(book == null)
+            {
+                return NotFound();
+            }
+            _bookService.Update(id, bookIn);
 
+            return NoContent();
+        }
+        [HttpDelete("{id:length(24)}")]
+        public IActionResult Delete(string id)
+        {
+            var book = _bookService.Get(id);
+            if(book == null)
+            {
+                return NotFound();
+            }
+            _bookService.Remove(book.Id);
+
+            return NoContent();
         }
         
     }
