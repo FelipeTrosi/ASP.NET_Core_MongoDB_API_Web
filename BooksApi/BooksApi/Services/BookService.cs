@@ -15,7 +15,6 @@ namespace BooksApi.Services
         {
             var client = new MongoClient(settings.ConnectionString);
             var database = client.GetDatabase(settings.DatabaseName);
-
             _books = database.GetCollection<Book>(settings.BooksCollectionName);
         }
 
@@ -36,6 +35,5 @@ namespace BooksApi.Services
 
         public void Remove(string id) => 
             _books.DeleteOne(book => book.Id == id);
-
     }
 }

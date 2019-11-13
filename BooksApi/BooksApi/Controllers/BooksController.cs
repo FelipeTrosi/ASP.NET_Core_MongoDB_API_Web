@@ -62,7 +62,7 @@ namespace BooksApi.Controllers
             _bookService.Remove(book.Id);
 
             return NoContent();
-        }
+        }        
         
     }
 }

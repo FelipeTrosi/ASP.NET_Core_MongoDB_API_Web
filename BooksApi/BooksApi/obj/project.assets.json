@@ -13930,11 +13930,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Felipe\\ASP.NET\\BooksApi\\BooksApi\\BooksApi.csproj",
+      "projectUniqueName": "C:\\Felipe\\ASP.NET\\BooksApiGit\\ASP.NET_Core_MongoDB_API_Web\\BooksApi\\BooksApi\\BooksApi.csproj",
       "projectName": "BooksApi",
-      "projectPath": "C:\\Felipe\\ASP.NET\\BooksApi\\BooksApi\\BooksApi.csproj",
+      "projectPath": "C:\\Felipe\\ASP.NET\\BooksApiGit\\ASP.NET_Core_MongoDB_API_Web\\BooksApi\\BooksApi\\BooksApi.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Felipe\\ASP.NET\\BooksApi\\BooksApi\\obj\\",
+      "outputPath": "C:\\Felipe\\ASP.NET\\BooksApiGit\\ASP.NET_Core_MongoDB_API_Web\\BooksApi\\BooksApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
